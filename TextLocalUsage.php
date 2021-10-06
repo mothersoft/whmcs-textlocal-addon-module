@@ -1,5 +1,11 @@
 <?php
-
+/**
+ * Name: WHMCS Textlocal Usage Widget
+ * Description: This widget provides you with your Textlocal Usage on your WHMCS admin dashboard.
+ * Version 1.0
+ * Created by Mothersoft Technologies
+ * Website: https://www.mothersoft.in/
+ */
 add_hook('AdminHomeWidgets', 1, function() {
     return new TextLocalWidget();
 });
